@@ -1,0 +1,12 @@
+<div ng-repeat="year in calendar">
+  <div class="row" ng-repeat="month in year.months">
+    <div class="col-md-12">
+      <h3>{{month.month}} {{year.year}}</h3>
+      <p ng-repeat="event in month.events">
+        <span class="text-secondary">{{month.month}} {{event.date}}:</span>
+        {{event.name}}
+        | <span class="text-info">{{event.location}} {{event.time}}</span>
+      </p>
+    </div>
+  </div>
+</div>

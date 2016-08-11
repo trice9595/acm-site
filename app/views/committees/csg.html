@@ -1,0 +1,33 @@
+<div class="jumbotron" style="background-color: #0085ca">
+  <h2><span class="text-white">Computer Security Group</span></h2>
+</div>
+
+<div class="row">
+  <div class="col-md-10">
+    <h2>Mission</h2>
+    <p class="text-secondary">
+      Teach students about computer security.
+    </p>
+    <p>
+      The Computer Security Group within Washington State University’s Voiland College of Engineering and Architecture is the university’s only Registered Student Organization (RSO) dedicated to computer and network security.
+    </p>
+  </div>
+  <div class="col-md-2">
+    <img src="images/csg-logo.png" class="img-responsive" />
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12">
+    <h2>Workshops</h2>
+    <p class="text-secondary">
+      Schedule of workshops for the 2016-2017 school year.
+    </p>
+    <div ng-repeat="workshop in workshops">
+      <h4>{{workshop.name}} | {{workshop.date}} {{workshop.time}} | {{workshop.location}}</h4>
+      <p>
+        We will be introducing our plans for the year as well as gauging interest in the talks and worskhops for the upcoming year.
+      </p>
+    </div>
+  </div>
+</div>

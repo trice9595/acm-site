@@ -1,0 +1,18 @@
+@import "variables.scss";
+
+// bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+@import "bootswatch.scss";
+@import "webfonts.scss";
+
+// Setting Font Colors
+.text-primary { color: $brand-primary;}
+.text-default{ color: $brand-default;}
+.text-info { color: $brand-info;}
+.text-success { color: $brand-success;}
+.text-warning { color: $brand-warning;}
+.text-danger { color: $brand-danger;}
+.text-white { color: #fff; }
+.text-secondary { color: #002f6c; }
