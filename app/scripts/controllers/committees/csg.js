@@ -9,6 +9,7 @@
  */
 angular.module('acmSiteApp')
   .controller('CsgCtrl', function ($scope) {
+    $scope.pageColor = "acm-red";
 
     $scope.workshops = [
       {

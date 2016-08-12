@@ -7,12 +7,35 @@
 @import "bootswatch.scss";
 @import "webfonts.scss";
 
-// Setting Font Colors
+// Default Brand Font Colors
 .text-primary { color: $brand-primary;}
 .text-default{ color: $brand-default;}
 .text-info { color: $brand-info;}
 .text-success { color: $brand-success;}
 .text-warning { color: $brand-warning;}
 .text-danger { color: $brand-danger;}
-.text-white { color: #fff; }
-.text-secondary { color: #002f6c; }
+
+// Custom Color Palette
+$acm-red: #EF3340 !default;
+$acm-light-blue: #71C5E8 !default;
+$acm-dark-blue: #002F6C !default;
+$acm-purple: #6D2077 !default;
+$acm-green: #A8AD00 !default;
+$wsu-crimson: #981E32 !default;
+
+// Custom Font Colors
+.text-white { color: #FFF; }
+.text-secondary { color: $acm-dark-blue; }
+.text-acm-red { color: $acm-red; }
+.text-acm-light-blue { color: $acm-light-blue; }
+.text-acm-purple { color: $acm-purple; }
+.text-acm-green { color: $acm-green; }
+.text-wsu-crimson { color: $wsu-crimson; }
+
+// Custom Background Colors
+.acm-red { background: $acm-red;}
+.acm-light-blue { background: $acm-light-blue;}
+.acm-dark-blue { background: $acm-dark-blue;}
+.acm-purple { background: $acm-purple;}
+.acm-green { background: $acm-green;}
+.wsu-crimson { background: $wsu-crimson; }
