@@ -52,6 +52,11 @@ angular
       url: "/committees/acm-w",
       templateUrl: "views/committees/acmw.html",
       controller: "AcmwCtrl"
+    });
 
+    $stateProvider.state("saas", {
+      url: "/committees/saas",
+      templateUrl: "views/committees/saas.html",
+      controller: "SaasCtrl"
     });
   });

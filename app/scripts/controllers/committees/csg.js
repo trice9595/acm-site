@@ -2,7 +2,7 @@
 
 /**
  * @ngdoc function
- * @name acmSiteApp.controller:MainCtrl
+ * @name acmSiteApp.controller:CsgCtrl
  * @description
  * # MainCtrl
  * Controller of the acmSiteApp
