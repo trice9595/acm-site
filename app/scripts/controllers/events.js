@@ -21,13 +21,19 @@ angular.module('acmSiteApp')
                 date: "31st",
                 time: "TBD",
                 location: "TBD",
-                name: "Career Fair Prep #2 – Workshop:  Informational Interviews/Career Fair Introduction Practice",
+                name: "Career Fair Prep #1 – Workshop: Finding an Internship or Job",
               }
             ]
           },
           {
             month: "September",
             events: [
+              {
+                date: "1st",
+                time: "TBD",
+                location: "TBD",
+                name: "Boeing Mentorship applications due, pick-up in EME 202H"
+              },
               {
                 date: "7th",
                 time: "TBD",
@@ -82,17 +88,23 @@ angular.module('acmSiteApp')
                 name: "EMC Isilon Tech Talk"
               },
               {
-                date: "4th",
-                time: "5-6PM",
+                date: "3rd",
+                time: "TBD",
                 location: "TBD",
-                name: "EMC Isilon Tech Talk"
+                name: "SWE Evening with Industry Networking Event"
               },
               {
                 date: "4th",
-                time: "5-6PM",
+                time: "TBD",
                 location: "TBD",
-                name: "EMC Isilon Tech Talk"
-              }
+                name: "Career Expo and VCEA Technical Fair"
+              },
+              {
+                date: "4th",
+                time: "TBD",
+                location: "TBD",
+                name: "NAVAIR Information Session"
+              },
             ]
           },
           {
